@@ -9,7 +9,7 @@
       <?php
       echo CHtml::link(
           CHtml::encode(Yii::app()->name),
-          array('/template/index'),
+          array('/index/index'),
           array('class' => 'brand')
       ) ?>
       <div class="nav-collapse">
