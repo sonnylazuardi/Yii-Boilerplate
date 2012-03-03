@@ -1,5 +1,5 @@
 <?php
 return CMap::mergeArray(
-    require(__DIR__.'/main.php'),
+    require(__DIR__.'/_main.php'),
     array()
 );

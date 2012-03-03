@@ -1,8 +1,9 @@
 <?php
 
-// change the following paths if necessary
+defined('SERVER_ENV') || define('SERVER_ENV', 'development');
+
 $yii = __DIR__.'/../protected/library/yii/yii.php';
-$config = __DIR__.'/../protected/config/main.php';
+$config = __DIR__.'/../protected/config/' . SERVER_ENV . '.php';
 
 // remove the following lines when in production mode
 defined('YII_DEBUG') or define('YII_DEBUG',true);

@@ -23,7 +23,7 @@ Yii::app()->clientScript
 <html lang="<?php echo Yii::app()->language ?>">
   <head>
     <base href="<?php echo Yii::app()->request->hostInfo . Yii::app()->baseUrl ?>/">
-    <meta charset="<?php echo Yii::app()->chaset ?>">
+    <meta charset="<?php echo Yii::app()->charset ?>">
     <title><?php echo CHtml::encode($this->pageTitle) ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--[if lt IE 9]>
@@ -47,7 +47,7 @@ Yii::app()->clientScript
         <?php echo $content ?>
 
         <footer>
-        <p>Your company. <?php Yii::powered() ?> </p>
+        <p>© <?php echo date('Y') ?> Your company. <?php echo Yii::powered() ?> </p>
         </footer>
     </div>
   </body>

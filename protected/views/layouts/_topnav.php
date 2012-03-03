@@ -22,17 +22,17 @@
                 ),
                 'items' => array(
                     array(
-                        'url' => array('/template/index'),
+                        'url' => array('/index/index'),
                         'label' => Yii::t('menu', 'Home'),
                     ),
-                    //array(
-                        //'url' => array('site/contact'),
-                        //'label' => Yii::t('menu', 'Contact'),
-                    //),
-                    //array(
-                        //'url' => array('site/page', 'view' => 'about'),
-                        //'label' => Yii::t('menu', 'About'),
-                    //),
+                    array(
+                        'url' => array('/index/contact'),
+                        'label' => Yii::t('menu', 'Contact'),
+                    ),
+                    array(
+                        'url' => array('/index/page', 'view' => 'about'),
+                        'label' => Yii::t('menu', 'About'),
+                    ),
                 ),
             )
         )
