@@ -1,3 +1,6 @@
 [submodule "protected/library/yii-framework"]
 	path = protected/library/yii-framework
 	url = https://github.com/yiisoft/yii.git
+[submodule "build/bootstrap"]
+	path = build/bootstrap
+	url = git://github.com/vwall/compass-twitter-bootstrap.git
