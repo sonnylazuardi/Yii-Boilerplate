@@ -1,0 +1,3 @@
+[submodule "protected/library/yii-framework"]
+	path = protected/library/yii-framework
+	url = https://github.com/yiisoft/yii.git
