@@ -15,8 +15,6 @@
           array('/index/index'),
           array('class' => 'brand')
       ) ?>
-    <?php
-      /*
       <div class="nav-collapse">
         <?php
         $this->widget(
@@ -31,7 +29,7 @@
                         'label' => Yii::t('menu', 'Home'),
                     ),
                     array(
-                        'url' => array('/contact/index'),
+                        'url' => array('/contact/index/index'),
                         'label' => Yii::t('menu', 'Contact'),
                     ),
                     array(
@@ -42,8 +40,7 @@
             )
         )
         ?>
-      </div><!--/.nav-collapse -->
-       */ ?>
+      </div>
     </div>
   </div>
 </div>

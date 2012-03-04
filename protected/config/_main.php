@@ -29,6 +29,9 @@ return array(
 
     // Modules to load. Out them into the protected/modules folder
     'modules' => array(
+        'contact' => array(
+            'to' => 'you@example.org',
+        ),
         'gii' => array(
             'class'       => 'system.gii.GiiModule',
             'password'    => 'abc',
