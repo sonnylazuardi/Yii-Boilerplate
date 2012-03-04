@@ -72,6 +72,12 @@ return array(
             ),
         ),
 
+        'request'=>array(
+            'enableCsrfValidation'   => true,
+            'enableCookieValidation' => true,
+            'csrfTokenName'          => 'midname',
+        ),
+
         // Route management
         'urlManager' => array(
             'urlFormat' => 'path',
