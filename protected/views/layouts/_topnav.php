@@ -1,17 +1,22 @@
 <div class="navbar navbar-fixed-top">
   <div class="navbar-inner">
     <div class="container">
+    <?php
+      /*
       <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </a>
+       */ ?>
       <?php
       echo CHtml::link(
           CHtml::encode(Yii::app()->name),
           array('/index/index'),
           array('class' => 'brand')
       ) ?>
+    <?php
+      /*
       <div class="nav-collapse">
         <?php
         $this->widget(
@@ -26,7 +31,7 @@
                         'label' => Yii::t('menu', 'Home'),
                     ),
                     array(
-                        'url' => array('/index/contact'),
+                        'url' => array('/contact/index'),
                         'label' => Yii::t('menu', 'Contact'),
                     ),
                     array(
@@ -38,6 +43,7 @@
         )
         ?>
       </div><!--/.nav-collapse -->
+       */ ?>
     </div>
   </div>
 </div>
