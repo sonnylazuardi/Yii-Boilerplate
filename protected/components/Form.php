@@ -17,6 +17,11 @@ class Form extends CActiveForm
         return Html::activeField('email', $model, $attribute, $htmlOptions);
     }
 
+    public function passwordField(CModel $model, $attribute, array $htmlOptions = array())
+    {
+        return Html::activeField('password', $model, $attribute, $htmlOptions);
+    }
+
 	public function textArea($model,$attribute,$htmlOptions=array())
 	{
 		return Html::activeTextArea($model,$attribute,$htmlOptions);
